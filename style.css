@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 body{
     font-family: sans-serif;
@@ -115,6 +116,7 @@ body{
     font-size: 40px;
     font-weight: 600;
     margin-top: 5%;
+    margin-left: 20px;
 }
 #about-us ul{
     margin-left: 20px;
@@ -159,4 +161,53 @@ body{
 }
 .social-icons a:hover img{
     transform: translateY(-10px);
+}
+
+/* Footer Section */
+#footer{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: #fff;
+}
+.footer-img{
+    width: 100%;
+}
+.footer-box{
+    padding: 20px;
+}
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box .i-design{
+    margin-right: 14px;
+    font-size: 25px;
+    height: 30px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+
+}
+.footer-box .form-control{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.footer-box .btn-primary{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    padding: 10px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+#footer hr{
+    color: #fff;
+}
+.copyright{
+    padding-bottom: 20px;
+    text-align: center;
 }
